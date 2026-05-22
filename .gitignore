@@ -1,0 +1,37 @@
+# Environment variables
+.env
+config-local.php
+
+# Logs
+*.log
+
+# Cache
+/cache/*
+!cache/.gitkeep
+
+# Uploads
+/uploads/*
+!uploads/.gitkeep
+
+# Database backups
+/backups/*
+!backups/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (if using build tools later)
+node_modules/
+npm-debug.log
+
+# Sensitive files
+config.php
+config-*.php
